@@ -16,6 +16,7 @@ public class UserDTO {
     private String password;
     private boolean status;
     private int age;
+    private String gender;
 
     public UserDTO() {
     }
