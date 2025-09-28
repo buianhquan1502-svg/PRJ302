@@ -13,7 +13,7 @@ import java.util.List;
 import sample.utils.DBUtils;
 
 public class UserDAO {
-
+    //SQL Script
     private static final String LOGIN = "SELECT userID FROM tblUsers WHERE userID=? AND password=?";
     private static final String SEARCH = "SELECT userID, fullName, roleID FROM tblUsers WHERE fullName like ?";
 

@@ -15,6 +15,7 @@ public class UserDTO {
     private String roleID;
     private String password;
     private boolean status;
+    private int age;
 
     public UserDTO() {
     }
